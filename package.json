@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "playwright test --headed",
+    "generate-report": "playwright test --reporter=line,allure-playwright", 
+    "view-report": "npx allure generate ./allure-results --clean && npx allure open"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.5",
+    "allure-playwright": "^2.0.0-beta.19"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}

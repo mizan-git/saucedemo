@@ -3,7 +3,7 @@ const{CommonPage}=require('../pages/CommonPage.js')
 const{LoginPage}=require('../pages/Login.js')
 const{ProductPage}=require('../pages/Product.js')
 const{CartPage}=require('../pages/Cart.js')
-const{CheckoutPage}=require('../pages/CheckOut.js')
+const{CheckoutPage}=require('../pages/Checkout.js')
 const{readCsv}=require('../utils/csvFileReader.js')
 
 let productsName = [];
